@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bounce Fitness Massage Services</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Bounce Fitness Massage</h1>
+            <p>Relax, Rejuvenate, and Renew</p>
+        </div>
+    </header>
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#book">Book Appointment</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="container">
+            <h2>Welcome to Bounce Fitness Massage</h2>
+            <p>At Bounce Fitness, we offer a variety of professional massage services to help you relax and recharge. Our expert therapists are here to provide the care you need in a comfortable and welcoming environment.</p>
+            <img src="images/home.jpg" alt="Relaxation Massage Environment">
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="container">
+            <h2>Our Services</h2>
+            <div class="card-wrapper">
+                <div class="card">
+                    <img src="images/swedish-massage.jpg" alt="Swedish Massage">
+                    <h3>Swedish Massage</h3>
+                    <p>Relaxing massage technique to improve circulation and reduce stress.</p>
+                    <p class="price">$80/hour</p>
+                </div>
+                <div class="card">
+                    <img src="images/deep-tissue-massage.jpg" alt="Deep Tissue Massage">
+                    <h3>Deep Tissue Massage</h3>
+                    <p>For muscle pain relief and tension release.</p>
+                    <p class="price">$100/hour</p>
+                </div>
+                <div class="card">
+                    <img src="images/hot-stone-massage.jpg" alt="Hot Stone Massage">
+                    <h3>Hot Stone Massage</h3>
+                    <p>Promotes deep relaxation using heated stones.</p>
+                    <p class="price">$120/hour</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Book Appointment Section -->
+        <section id="book" class="container">
+            <h2>Book Your Appointment</h2>
+            <form action="https://example.com/submit" method="POST">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                
+                <label for="service">Select Service:</label>
+                <select id="service" name="service" required>
+                    <option value="swedish-massage">Swedish Massage</option>
+                    <option value="deep-tissue-massage">Deep Tissue Massage</option>
+                    <option value="hot-stone-massage">Hot Stone Massage</option>
+                </select>
+
+                <label for="date">Preferred Date:</label>
+                <input type="date" id="date" name="date" required>
+
+                <label for="time">Preferred Time:</label>
+                <input type="time" id="time" name="time" required>
+
+                <button type="submit">Book Now</button>
+            </form>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="container">
+            <h2>Contact Us</h2>
+            <p>Email: <a href="mailto:contact@bouncefitness.com">contact@bouncefitness.com</a></p>
+            <p>Phone: +61 3 1234 5678</p>
+            <p>Address: 123 Wellness Street, Melbourne, Australia</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345096315!2d144.9537363153159!3d-37.81627974201186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf5775c7b5f5d1b1f!2s123%20Wellness%20Street%2C%20Melbourne%2C%20Australia!5e0!3m2!1sen!2s!4v1681234567890" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Bounce Fitness. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
